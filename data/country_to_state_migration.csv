@@ -1,0 +1,1321 @@
+﻿State,Country,Year,Migrants
+NSW,India,2025,15610
+NSW,China,2025,15080
+NSW,New Zealand,2025,3870
+NSW,Philippines,2025,5450
+NSW,Nepal,2025,8770
+NSW,Sri Lanka,2025,2710
+NSW,Bangladesh,2025,5330
+NSW,Pakistan,2025,2740
+NSW,Vietnam,2025,3160
+NSW,Indonesia,2025,2770
+NSW,Afghanistan,2025,2100
+NSW,South Africa,2025,1240
+NSW,Iran,2025,1510
+NSW,Ireland,2025,900
+NSW,Hong Kong,2025,1140
+VIC,India,2025,20570
+VIC,China,2025,10980
+VIC,New Zealand,2025,5880
+VIC,Philippines,2025,4640
+VIC,Nepal,2025,2870
+VIC,Sri Lanka,2025,5550
+VIC,Bangladesh,2025,2500
+VIC,Pakistan,2025,3040
+VIC,Vietnam,2025,3400
+VIC,Indonesia,2025,2870
+VIC,Afghanistan,2025,3820
+VIC,South Africa,2025,1090
+VIC,Iran,2025,1160
+VIC,Ireland,2025,570
+VIC,Hong Kong,2025,1250
+QLD,India,2025,7900
+QLD,China,2025,4830
+QLD,New Zealand,2025,9890
+QLD,Philippines,2025,4100
+QLD,Nepal,2025,1500
+QLD,Sri Lanka,2025,1400
+QLD,Bangladesh,2025,740
+QLD,Pakistan,2025,980
+QLD,Vietnam,2025,1070
+QLD,Indonesia,2025,910
+QLD,Afghanistan,2025,750
+QLD,South Africa,2025,2110
+QLD,Iran,2025,620
+QLD,Ireland,2025,380
+QLD,Hong Kong,2025,580
+SA,India,2025,4850
+SA,China,2025,1770
+SA,New Zealand,2025,520
+SA,Philippines,2025,990
+SA,Nepal,2025,930
+SA,Sri Lanka,2025,960
+SA,Bangladesh,2025,810
+SA,Pakistan,2025,790
+SA,Vietnam,2025,600
+SA,Indonesia,2025,750
+SA,Afghanistan,2025,1010
+SA,South Africa,2025,380
+SA,Iran,2025,390
+SA,Ireland,2025,70
+SA,Hong Kong,2025,190
+WA,India,2025,5390
+WA,China,2025,1770
+WA,New Zealand,2025,3650
+WA,Philippines,2025,3410
+WA,Nepal,2025,1300
+WA,Sri Lanka,2025,1130
+WA,Bangladesh,2025,1420
+WA,Pakistan,2025,1350
+WA,Vietnam,2025,780
+WA,Indonesia,2025,910
+WA,Afghanistan,2025,580
+WA,South Africa,2025,1560
+WA,Iran,2025,370
+WA,Ireland,2025,1480
+WA,Hong Kong,2025,200
+TAS,India,2025,730
+TAS,China,2025,40
+TAS,New Zealand,2025,160
+TAS,Philippines,2025,230
+TAS,Nepal,2025,190
+TAS,Sri Lanka,2025,130
+TAS,Bangladesh,2025,170
+TAS,Pakistan,2025,110
+TAS,Vietnam,2025,80
+TAS,Indonesia,2025,50
+TAS,Afghanistan,2025,90
+TAS,South Africa,2025,60
+TAS,Iran,2025,40
+TAS,Ireland,2025,0
+TAS,Hong Kong,2025,40
+NT,India,2025,890
+NT,China,2025,110
+NT,New Zealand,2025,180
+NT,Philippines,2025,320
+NT,Nepal,2025,310
+NT,Sri Lanka,2025,160
+NT,Bangladesh,2025,180
+NT,Pakistan,2025,100
+NT,Vietnam,2025,60
+NT,Indonesia,2025,130
+NT,Afghanistan,2025,10
+NT,South Africa,2025,90
+NT,Iran,2025,20
+NT,Ireland,2025,60
+NT,Hong Kong,2025,30
+ACT,India,2025,1470
+ACT,China,2025,580
+ACT,New Zealand,2025,170
+ACT,Philippines,2025,300
+ACT,Nepal,2025,440
+ACT,Sri Lanka,2025,400
+ACT,Bangladesh,2025,130
+ACT,Pakistan,2025,270
+ACT,Vietnam,2025,100
+ACT,Indonesia,2025,90
+ACT,Afghanistan,2025,130
+ACT,South Africa,2025,70
+ACT,Iran,2025,70
+ACT,Ireland,2025,0
+ACT,Hong Kong,2025,50
+NSW,India,2024,18620
+NSW,China,2024,19640
+NSW,New Zealand,2024,3280
+NSW,Philippines,2024,9930
+NSW,Nepal,2024,9920
+NSW,Sri Lanka,2024,2410
+NSW,Bangladesh,2024,4930
+NSW,Pakistan,2024,4380
+NSW,Vietnam,2024,7460
+NSW,Indonesia,2024,4180
+NSW,Afghanistan,2024,2650
+NSW,South Africa,2024,2020
+NSW,Iran,2024,2170
+NSW,Ireland,2024,3480
+NSW,Hong Kong,2024,1620
+VIC,India,2024,27050
+VIC,China,2024,14530
+VIC,New Zealand,2024,6090
+VIC,Philippines,2024,8560
+VIC,Nepal,2024,3160
+VIC,Sri Lanka,2024,7500
+VIC,Bangladesh,2024,1910
+VIC,Pakistan,2024,4810
+VIC,Vietnam,2024,7710
+VIC,Indonesia,2024,3140
+VIC,Afghanistan,2024,4610
+VIC,South Africa,2024,1790
+VIC,Iran,2024,1880
+VIC,Ireland,2024,2250
+VIC,Hong Kong,2024,1690
+QLD,India,2024,9660
+QLD,China,2024,5910
+QLD,New Zealand,2024,8710
+QLD,Philippines,2024,5910
+QLD,Nepal,2024,1420
+QLD,Sri Lanka,2024,1750
+QLD,Bangladesh,2024,540
+QLD,Pakistan,2024,1130
+QLD,Vietnam,2024,1770
+QLD,Indonesia,2024,1170
+QLD,Afghanistan,2024,920
+QLD,South Africa,2024,2800
+QLD,Iran,2024,720
+QLD,Ireland,2024,770
+QLD,Hong Kong,2024,770
+SA,India,2024,5490
+SA,China,2024,2460
+SA,New Zealand,2024,460
+SA,Philippines,2024,1540
+SA,Nepal,2024,950
+SA,Sri Lanka,2024,970
+SA,Bangladesh,2024,540
+SA,Pakistan,2024,830
+SA,Vietnam,2024,1370
+SA,Indonesia,2024,800
+SA,Afghanistan,2024,1180
+SA,South Africa,2024,730
+SA,Iran,2024,440
+SA,Ireland,2024,70
+SA,Hong Kong,2024,340
+WA,India,2024,6960
+WA,China,2024,2650
+WA,New Zealand,2024,3920
+WA,Philippines,2024,4680
+WA,Nepal,2024,1490
+WA,Sri Lanka,2024,1540
+WA,Bangladesh,2024,1090
+WA,Pakistan,2024,2470
+WA,Vietnam,2024,1520
+WA,Indonesia,2024,1170
+WA,Afghanistan,2024,800
+WA,South Africa,2024,2460
+WA,Iran,2024,520
+WA,Ireland,2024,2420
+WA,Hong Kong,2024,410
+TAS,India,2024,670
+TAS,China,2024,140
+TAS,New Zealand,2024,100
+TAS,Philippines,2024,270
+TAS,Nepal,2024,380
+TAS,Sri Lanka,2024,240
+TAS,Bangladesh,2024,340
+TAS,Pakistan,2024,220
+TAS,Vietnam,2024,120
+TAS,Indonesia,2024,70
+TAS,Afghanistan,2024,90
+TAS,South Africa,2024,130
+TAS,Iran,2024,70
+TAS,Ireland,2024,30
+TAS,Hong Kong,2024,40
+NT,India,2024,480
+NT,China,2024,130
+NT,New Zealand,2024,200
+NT,Philippines,2024,450
+NT,Nepal,2024,420
+NT,Sri Lanka,2024,140
+NT,Bangladesh,2024,260
+NT,Pakistan,2024,140
+NT,Vietnam,2024,180
+NT,Indonesia,2024,260
+NT,Afghanistan,2024,20
+NT,South Africa,2024,110
+NT,Iran,2024,10
+NT,Ireland,2024,80
+NT,Hong Kong,2024,40
+ACT,India,2024,1190
+ACT,China,2024,1110
+ACT,New Zealand,2024,150
+ACT,Philippines,2024,340
+ACT,Nepal,2024,430
+ACT,Sri Lanka,2024,200
+ACT,Bangladesh,2024,150
+ACT,Pakistan,2024,280
+ACT,Vietnam,2024,220
+ACT,Indonesia,2024,70
+ACT,Afghanistan,2024,100
+ACT,South Africa,2024,110
+ACT,Iran,2024,110
+ACT,Ireland,2024,20
+ACT,Hong Kong,2024,70
+NSW,India,2023,27620
+NSW,China,2023,24610
+NSW,New Zealand,2023,2080
+NSW,Philippines,2023,14110
+NSW,Nepal,2023,16870
+NSW,Sri Lanka,2023,2090
+NSW,Bangladesh,2023,3070
+NSW,Pakistan,2023,6780
+NSW,Vietnam,2023,6260
+NSW,Indonesia,2023,5910
+NSW,Afghanistan,2023,1530
+NSW,South Africa,2023,2180
+NSW,Iran,2023,1960
+NSW,Ireland,2023,4100
+NSW,Hong Kong,2023,2400
+VIC,India,2023,36480
+VIC,China,2023,19530
+VIC,New Zealand,2023,4870
+VIC,Philippines,2023,10840
+VIC,Nepal,2023,4450
+VIC,Sri Lanka,2023,7300
+VIC,Bangladesh,2023,1330
+VIC,Pakistan,2023,5340
+VIC,Vietnam,2023,7570
+VIC,Indonesia,2023,3490
+VIC,Afghanistan,2023,3060
+VIC,South Africa,2023,1450
+VIC,Iran,2023,2040
+VIC,Ireland,2023,2500
+VIC,Hong Kong,2023,2670
+QLD,India,2023,11340
+QLD,China,2023,7520
+QLD,New Zealand,2023,5250
+QLD,Philippines,2023,8200
+QLD,Nepal,2023,1770
+QLD,Sri Lanka,2023,1560
+QLD,Bangladesh,2023,430
+QLD,Pakistan,2023,1140
+QLD,Vietnam,2023,1670
+QLD,Indonesia,2023,1280
+QLD,Afghanistan,2023,630
+QLD,South Africa,2023,2420
+QLD,Iran,2023,770
+QLD,Ireland,2023,870
+QLD,Hong Kong,2023,1250
+SA,India,2023,8070
+SA,China,2023,3050
+SA,New Zealand,2023,320
+SA,Philippines,2023,2090
+SA,Nepal,2023,1410
+SA,Sri Lanka,2023,1060
+SA,Bangladesh,2023,370
+SA,Pakistan,2023,760
+SA,Vietnam,2023,1350
+SA,Indonesia,2023,580
+SA,Afghanistan,2023,750
+SA,South Africa,2023,630
+SA,Iran,2023,420
+SA,Ireland,2023,50
+SA,Hong Kong,2023,660
+WA,India,2023,8150
+WA,China,2023,2540
+WA,New Zealand,2023,3260
+WA,Philippines,2023,6610
+WA,Nepal,2023,1710
+WA,Sri Lanka,2023,1350
+WA,Bangladesh,2023,730
+WA,Pakistan,2023,2730
+WA,Vietnam,2023,1320
+WA,Indonesia,2023,1320
+WA,Afghanistan,2023,530
+WA,South Africa,2023,2210
+WA,Iran,2023,440
+WA,Ireland,2023,1980
+WA,Hong Kong,2023,660
+TAS,India,2023,940
+TAS,China,2023,260
+TAS,New Zealand,2023,30
+TAS,Philippines,2023,320
+TAS,Nepal,2023,530
+TAS,Sri Lanka,2023,240
+TAS,Bangladesh,2023,180
+TAS,Pakistan,2023,230
+TAS,Vietnam,2023,170
+TAS,Indonesia,2023,90
+TAS,Afghanistan,2023,100
+TAS,South Africa,2023,110
+TAS,Iran,2023,70
+TAS,Ireland,2023,20
+TAS,Hong Kong,2023,60
+NT,India,2023,630
+NT,China,2023,190
+NT,New Zealand,2023,40
+NT,Philippines,2023,650
+NT,Nepal,2023,470
+NT,Sri Lanka,2023,200
+NT,Bangladesh,2023,160
+NT,Pakistan,2023,300
+NT,Vietnam,2023,240
+NT,Indonesia,2023,270
+NT,Afghanistan,2023,0
+NT,South Africa,2023,70
+NT,Iran,2023,20
+NT,Ireland,2023,110
+NT,Hong Kong,2023,110
+ACT,India,2023,1800
+ACT,China,2023,1860
+ACT,New Zealand,2023,110
+ACT,Philippines,2023,500
+ACT,Nepal,2023,810
+ACT,Sri Lanka,2023,200
+ACT,Bangladesh,2023,130
+ACT,Pakistan,2023,360
+ACT,Vietnam,2023,220
+ACT,Indonesia,2023,150
+ACT,Afghanistan,2023,100
+ACT,South Africa,2023,100
+ACT,Iran,2023,90
+ACT,Ireland,2023,10
+ACT,Hong Kong,2023,100
+NSW,India,2022,13820
+NSW,China,2022,5670
+NSW,New Zealand,2022,380
+NSW,Philippines,2022,3990
+NSW,Nepal,2022,14870
+NSW,Sri Lanka,2022,830
+NSW,Bangladesh,2022,1320
+NSW,Pakistan,2022,2830
+NSW,Vietnam,2022,2600
+NSW,Indonesia,2022,1630
+NSW,Afghanistan,2022,1790
+NSW,South Africa,2022,1230
+NSW,Iran,2022,1050
+NSW,Ireland,2022,-120
+NSW,Hong Kong,2022,2990
+VIC,India,2022,18400
+VIC,China,2022,5570
+VIC,New Zealand,2022,1750
+VIC,Philippines,2022,3320
+VIC,Nepal,2022,2920
+VIC,Sri Lanka,2022,3390
+VIC,Bangladesh,2022,880
+VIC,Pakistan,2022,2740
+VIC,Vietnam,2022,3420
+VIC,Indonesia,2022,1910
+VIC,Afghanistan,2022,2840
+VIC,South Africa,2022,780
+VIC,Iran,2022,1510
+VIC,Ireland,2022,-90
+VIC,Hong Kong,2022,2480
+QLD,India,2022,3720
+QLD,China,2022,1400
+QLD,New Zealand,2022,2200
+QLD,Philippines,2022,2330
+QLD,Nepal,2022,980
+QLD,Sri Lanka,2022,630
+QLD,Bangladesh,2022,190
+QLD,Pakistan,2022,310
+QLD,Vietnam,2022,750
+QLD,Indonesia,2022,290
+QLD,Afghanistan,2022,960
+QLD,South Africa,2022,1340
+QLD,Iran,2022,370
+QLD,Ireland,2022,20
+QLD,Hong Kong,2022,1450
+SA,India,2022,3790
+SA,China,2022,1230
+SA,New Zealand,2022,110
+SA,Philippines,2022,760
+SA,Nepal,2022,840
+SA,Sri Lanka,2022,470
+SA,Bangladesh,2022,130
+SA,Pakistan,2022,380
+SA,Vietnam,2022,740
+SA,Indonesia,2022,160
+SA,Afghanistan,2022,540
+SA,South Africa,2022,370
+SA,Iran,2022,250
+SA,Ireland,2022,10
+SA,Hong Kong,2022,830
+WA,India,2022,2220
+WA,China,2022,290
+WA,New Zealand,2022,920
+WA,Philippines,2022,2070
+WA,Nepal,2022,600
+WA,Sri Lanka,2022,410
+WA,Bangladesh,2022,120
+WA,Pakistan,2022,530
+WA,Vietnam,2022,440
+WA,Indonesia,2022,400
+WA,Afghanistan,2022,300
+WA,South Africa,2022,1060
+WA,Iran,2022,160
+WA,Ireland,2022,100
+WA,Hong Kong,2022,500
+TAS,India,2022,560
+TAS,China,2022,230
+TAS,New Zealand,2022,50
+TAS,Philippines,2022,80
+TAS,Nepal,2022,250
+TAS,Sri Lanka,2022,70
+TAS,Bangladesh,2022,50
+TAS,Pakistan,2022,140
+TAS,Vietnam,2022,90
+TAS,Indonesia,2022,40
+TAS,Afghanistan,2022,40
+TAS,South Africa,2022,70
+TAS,Iran,2022,40
+TAS,Ireland,2022,10
+TAS,Hong Kong,2022,110
+NT,India,2022,320
+NT,China,2022,80
+NT,New Zealand,2022,-20
+NT,Philippines,2022,200
+NT,Nepal,2022,190
+NT,Sri Lanka,2022,80
+NT,Bangladesh,2022,70
+NT,Pakistan,2022,100
+NT,Vietnam,2022,180
+NT,Indonesia,2022,40
+NT,Afghanistan,2022,660
+NT,South Africa,2022,80
+NT,Iran,2022,30
+NT,Ireland,2022,-10
+NT,Hong Kong,2022,30
+ACT,India,2022,720
+ACT,China,2022,620
+ACT,New Zealand,2022,-20
+ACT,Philippines,2022,170
+ACT,Nepal,2022,380
+ACT,Sri Lanka,2022,110
+ACT,Bangladesh,2022,50
+ACT,Pakistan,2022,150
+ACT,Vietnam,2022,100
+ACT,Indonesia,2022,50
+ACT,Afghanistan,2022,130
+ACT,South Africa,2022,50
+ACT,Iran,2022,70
+ACT,Ireland,2022,-20
+ACT,Hong Kong,2022,90
+NSW,India,2021,-1650
+NSW,China,2021,-16630
+NSW,New Zealand,2021,1930
+NSW,Philippines,2021,750
+NSW,Nepal,2021,-1190
+NSW,Sri Lanka,2021,350
+NSW,Bangladesh,2021,-160
+NSW,Pakistan,2021,80
+NSW,Vietnam,2021,80
+NSW,Indonesia,2021,-420
+NSW,Afghanistan,2021,460
+NSW,South Africa,2021,1450
+NSW,Iran,2021,290
+NSW,Ireland,2021,-400
+NSW,Hong Kong,2021,1110
+VIC,India,2021,-6390
+VIC,China,2021,-21680
+VIC,New Zealand,2021,-1760
+VIC,Philippines,2021,-40
+VIC,Nepal,2021,-460
+VIC,Sri Lanka,2021,-960
+VIC,Bangladesh,2021,-270
+VIC,Pakistan,2021,-640
+VIC,Vietnam,2021,-1200
+VIC,Indonesia,2021,-1590
+VIC,Afghanistan,2021,470
+VIC,South Africa,2021,100
+VIC,Iran,2021,170
+VIC,Ireland,2021,-570
+VIC,Hong Kong,2021,-70
+QLD,India,2021,-1230
+QLD,China,2021,-6030
+QLD,New Zealand,2021,-1470
+QLD,Philippines,2021,290
+QLD,Nepal,2021,-140
+QLD,Sri Lanka,2021,-70
+QLD,Bangladesh,2021,-30
+QLD,Pakistan,2021,-70
+QLD,Vietnam,2021,-80
+QLD,Indonesia,2021,-250
+QLD,Afghanistan,2021,190
+QLD,South Africa,2021,490
+QLD,Iran,2021,70
+QLD,Ireland,2021,-100
+QLD,Hong Kong,2021,-30
+SA,India,2021,-470
+SA,China,2021,-2050
+SA,New Zealand,2021,-30
+SA,Philippines,2021,60
+SA,Nepal,2021,-100
+SA,Sri Lanka,2021,-60
+SA,Bangladesh,2021,-30
+SA,Pakistan,2021,20
+SA,Vietnam,2021,-110
+SA,Indonesia,2021,-130
+SA,Afghanistan,2021,190
+SA,South Africa,2021,90
+SA,Iran,2021,30
+SA,Ireland,2021,0
+SA,Hong Kong,2021,-150
+WA,India,2021,-660
+WA,China,2021,-1750
+WA,New Zealand,2021,-700
+WA,Philippines,2021,10
+WA,Nepal,2021,-80
+WA,Sri Lanka,2021,-80
+WA,Bangladesh,2021,-40
+WA,Pakistan,2021,-60
+WA,Vietnam,2021,-60
+WA,Indonesia,2021,10
+WA,Afghanistan,2021,140
+WA,South Africa,2021,360
+WA,Iran,2021,30
+WA,Ireland,2021,-100
+WA,Hong Kong,2021,-20
+TAS,India,2021,-50
+TAS,China,2021,-400
+TAS,New Zealand,2021,-20
+TAS,Philippines,2021,10
+TAS,Nepal,2021,-20
+TAS,Sri Lanka,2021,10
+TAS,Bangladesh,2021,0
+TAS,Pakistan,2021,-40
+TAS,Vietnam,2021,-30
+TAS,Indonesia,2021,-10
+TAS,Afghanistan,2021,0
+TAS,South Africa,2021,20
+TAS,Iran,2021,0
+TAS,Ireland,2021,-10
+TAS,Hong Kong,2021,-20
+NT,India,2021,-30
+NT,China,2021,-60
+NT,New Zealand,2021,-80
+NT,Philippines,2021,10
+NT,Nepal,2021,-40
+NT,Sri Lanka,2021,0
+NT,Bangladesh,2021,0
+NT,Pakistan,2021,-10
+NT,Vietnam,2021,10
+NT,Indonesia,2021,-10
+NT,Afghanistan,2021,0
+NT,South Africa,2021,10
+NT,Iran,2021,-10
+NT,Ireland,2021,-10
+NT,Hong Kong,2021,0
+ACT,India,2021,-170
+ACT,China,2021,-1670
+ACT,New Zealand,2021,-30
+ACT,Philippines,2021,-20
+ACT,Nepal,2021,-60
+ACT,Sri Lanka,2021,-30
+ACT,Bangladesh,2021,-20
+ACT,Pakistan,2021,-20
+ACT,Vietnam,2021,-40
+ACT,Indonesia,2021,-120
+ACT,Afghanistan,2021,20
+ACT,South Africa,2021,20
+ACT,Iran,2021,10
+ACT,Ireland,2021,-20
+ACT,Hong Kong,2021,-10
+NSW,India,2020,17610
+NSW,China,2020,-10240
+NSW,New Zealand,2020,-330
+NSW,Philippines,2020,5150
+NSW,Nepal,2020,7660
+NSW,Sri Lanka,2020,980
+NSW,Bangladesh,2020,1400
+NSW,Pakistan,2020,2090
+NSW,Vietnam,2020,2240
+NSW,Indonesia,2020,1200
+NSW,Afghanistan,2020,610
+NSW,South Africa,2020,1870
+NSW,Iran,2020,1020
+NSW,Ireland,2020,520
+NSW,Hong Kong,2020,1090
+VIC,India,2020,24270
+VIC,China,2020,-4990
+VIC,New Zealand,2020,410
+VIC,Philippines,2020,4390
+VIC,Nepal,2020,2490
+VIC,Sri Lanka,2020,3970
+VIC,Bangladesh,2020,610
+VIC,Pakistan,2020,1880
+VIC,Vietnam,2020,2640
+VIC,Indonesia,2020,760
+VIC,Afghanistan,2020,1440
+VIC,South Africa,2020,930
+VIC,Iran,2020,930
+VIC,Ireland,2020,460
+VIC,Hong Kong,2020,780
+QLD,India,2020,6380
+QLD,China,2020,-1090
+QLD,New Zealand,2020,-150
+QLD,Philippines,2020,2580
+QLD,Nepal,2020,1160
+QLD,Sri Lanka,2020,540
+QLD,Bangladesh,2020,140
+QLD,Pakistan,2020,290
+QLD,Vietnam,2020,940
+QLD,Indonesia,2020,350
+QLD,Afghanistan,2020,210
+QLD,South Africa,2020,1680
+QLD,Iran,2020,400
+QLD,Ireland,2020,80
+QLD,Hong Kong,2020,480
+SA,India,2020,5240
+SA,China,2020,-1080
+SA,New Zealand,2020,-20
+SA,Philippines,2020,890
+SA,Nepal,2020,860
+SA,Sri Lanka,2020,520
+SA,Bangladesh,2020,160
+SA,Pakistan,2020,450
+SA,Vietnam,2020,720
+SA,Indonesia,2020,60
+SA,Afghanistan,2020,410
+SA,South Africa,2020,520
+SA,Iran,2020,290
+SA,Ireland,2020,50
+SA,Hong Kong,2020,340
+WA,India,2020,4420
+WA,China,2020,830
+WA,New Zealand,2020,-240
+WA,Philippines,2020,1800
+WA,Nepal,2020,630
+WA,Sri Lanka,2020,780
+WA,Bangladesh,2020,200
+WA,Pakistan,2020,710
+WA,Vietnam,2020,660
+WA,Indonesia,2020,1050
+WA,Afghanistan,2020,350
+WA,South Africa,2020,1180
+WA,Iran,2020,250
+WA,Ireland,2020,170
+WA,Hong Kong,2020,240
+TAS,India,2020,490
+TAS,China,2020,-310
+TAS,New Zealand,2020,40
+TAS,Philippines,2020,100
+TAS,Nepal,2020,220
+TAS,Sri Lanka,2020,50
+TAS,Bangladesh,2020,30
+TAS,Pakistan,2020,100
+TAS,Vietnam,2020,90
+TAS,Indonesia,2020,40
+TAS,Afghanistan,2020,20
+TAS,South Africa,2020,70
+TAS,Iran,2020,40
+TAS,Ireland,2020,10
+TAS,Hong Kong,2020,90
+NT,India,2020,380
+NT,China,2020,-40
+NT,New Zealand,2020,-80
+NT,Philippines,2020,200
+NT,Nepal,2020,170
+NT,Sri Lanka,2020,60
+NT,Bangladesh,2020,30
+NT,Pakistan,2020,30
+NT,Vietnam,2020,80
+NT,Indonesia,2020,60
+NT,Afghanistan,2020,10
+NT,South Africa,2020,70
+NT,Iran,2020,10
+NT,Ireland,2020,-20
+NT,Hong Kong,2020,10
+ACT,India,2020,1030
+ACT,China,2020,-1670
+ACT,New Zealand,2020,10
+ACT,Philippines,2020,240
+ACT,Nepal,2020,160
+ACT,Sri Lanka,2020,70
+ACT,Bangladesh,2020,100
+ACT,Pakistan,2020,40
+ACT,Vietnam,2020,100
+ACT,Indonesia,2020,40
+ACT,Afghanistan,2020,20
+ACT,South Africa,2020,80
+ACT,Iran,2020,70
+ACT,Ireland,2020,0
+ACT,Hong Kong,2020,20
+NSW,India,2019,21970
+NSW,China,2019,6520
+NSW,New Zealand,2019,590
+NSW,Philippines,2019,6260
+NSW,Nepal,2019,15260
+NSW,Sri Lanka,2019,880
+NSW,Bangladesh,2019,1380
+NSW,Pakistan,2019,2740
+NSW,Vietnam,2019,2710
+NSW,Indonesia,2019,1640
+NSW,Afghanistan,2019,620
+NSW,South Africa,2019,1460
+NSW,Iran,2019,1170
+NSW,Ireland,2019,420
+NSW,Hong Kong,2019,630
+VIC,India,2019,31670
+VIC,China,2019,8260
+VIC,New Zealand,2019,1780
+VIC,Philippines,2019,4990
+VIC,Nepal,2019,4280
+VIC,Sri Lanka,2019,4230
+VIC,Bangladesh,2019,620
+VIC,Pakistan,2019,2820
+VIC,Vietnam,2019,3030
+VIC,Indonesia,2019,1100
+VIC,Afghanistan,2019,1380
+VIC,South Africa,2019,1090
+VIC,Iran,2019,1100
+VIC,Ireland,2019,640
+VIC,Hong Kong,2019,560
+QLD,India,2019,7680
+QLD,China,2019,2360
+QLD,New Zealand,2019,1190
+QLD,Philippines,2019,3690
+QLD,Nepal,2019,2260
+QLD,Sri Lanka,2019,640
+QLD,Bangladesh,2019,180
+QLD,Pakistan,2019,450
+QLD,Vietnam,2019,800
+QLD,Indonesia,2019,360
+QLD,Afghanistan,2019,200
+QLD,South Africa,2019,1670
+QLD,Iran,2019,590
+QLD,Ireland,2019,10
+QLD,Hong Kong,2019,240
+SA,India,2019,4860
+SA,China,2019,1400
+SA,New Zealand,2019,50
+SA,Philippines,2019,930
+SA,Nepal,2019,890
+SA,Sri Lanka,2019,440
+SA,Bangladesh,2019,120
+SA,Pakistan,2019,530
+SA,Vietnam,2019,640
+SA,Indonesia,2019,30
+SA,Afghanistan,2019,500
+SA,South Africa,2019,510
+SA,Iran,2019,270
+SA,Ireland,2019,20
+SA,Hong Kong,2019,270
+WA,India,2019,5110
+WA,China,2019,820
+WA,New Zealand,2019,-230
+WA,Philippines,2019,1810
+WA,Nepal,2019,780
+WA,Sri Lanka,2019,540
+WA,Bangladesh,2019,120
+WA,Pakistan,2019,670
+WA,Vietnam,2019,420
+WA,Indonesia,2019,580
+WA,Afghanistan,2019,280
+WA,South Africa,2019,1060
+WA,Iran,2019,230
+WA,Ireland,2019,-180
+WA,Hong Kong,2019,20
+TAS,India,2019,670
+TAS,China,2019,600
+TAS,New Zealand,2019,20
+TAS,Philippines,2019,150
+TAS,Nepal,2019,220
+TAS,Sri Lanka,2019,50
+TAS,Bangladesh,2019,40
+TAS,Pakistan,2019,150
+TAS,Vietnam,2019,130
+TAS,Indonesia,2019,30
+TAS,Afghanistan,2019,40
+TAS,South Africa,2019,70
+TAS,Iran,2019,20
+TAS,Ireland,2019,0
+TAS,Hong Kong,2019,70
+NT,India,2019,290
+NT,China,2019,90
+NT,New Zealand,2019,-30
+NT,Philippines,2019,340
+NT,Nepal,2019,210
+NT,Sri Lanka,2019,130
+NT,Bangladesh,2019,40
+NT,Pakistan,2019,60
+NT,Vietnam,2019,90
+NT,Indonesia,2019,170
+NT,Afghanistan,2019,0
+NT,South Africa,2019,80
+NT,Iran,2019,10
+NT,Ireland,2019,-60
+NT,Hong Kong,2019,10
+ACT,India,2019,950
+ACT,China,2019,120
+ACT,New Zealand,2019,-30
+ACT,Philippines,2019,240
+ACT,Nepal,2019,170
+ACT,Sri Lanka,2019,70
+ACT,Bangladesh,2019,80
+ACT,Pakistan,2019,110
+ACT,Vietnam,2019,70
+ACT,Indonesia,2019,-50
+ACT,Afghanistan,2019,20
+ACT,South Africa,2019,70
+ACT,Iran,2019,60
+ACT,Ireland,2019,0
+ACT,Hong Kong,2019,20
+NSW,India,2018,18530
+NSW,China,2018,17090
+NSW,New Zealand,2018,710
+NSW,Philippines,2018,4380
+NSW,Nepal,2018,14220
+NSW,Sri Lanka,2018,680
+NSW,Bangladesh,2018,1650
+NSW,Pakistan,2018,3100
+NSW,Vietnam,2018,2710
+NSW,Indonesia,2018,1320
+NSW,Afghanistan,2018,650
+NSW,South Africa,2018,1380
+NSW,Iran,2018,910
+NSW,Ireland,2018,630
+NSW,Hong Kong,2018,500
+VIC,India,2018,23570
+VIC,China,2018,16540
+VIC,New Zealand,2018,1910
+VIC,Philippines,2018,3300
+VIC,Nepal,2018,3510
+VIC,Sri Lanka,2018,3590
+VIC,Bangladesh,2018,660
+VIC,Pakistan,2018,2920
+VIC,Vietnam,2018,2570
+VIC,Indonesia,2018,1000
+VIC,Afghanistan,2018,1480
+VIC,South Africa,2018,910
+VIC,Iran,2018,920
+VIC,Ireland,2018,430
+VIC,Hong Kong,2018,470
+QLD,India,2018,5260
+QLD,China,2018,5520
+QLD,New Zealand,2018,1050
+QLD,Philippines,2018,2220
+QLD,Nepal,2018,1550
+QLD,Sri Lanka,2018,420
+QLD,Bangladesh,2018,190
+QLD,Pakistan,2018,400
+QLD,Vietnam,2018,730
+QLD,Indonesia,2018,340
+QLD,Afghanistan,2018,250
+QLD,South Africa,2018,1120
+QLD,Iran,2018,280
+QLD,Ireland,2018,-90
+QLD,Hong Kong,2018,140
+SA,India,2018,3570
+SA,China,2018,1920
+SA,New Zealand,2018,70
+SA,Philippines,2018,700
+SA,Nepal,2018,740
+SA,Sri Lanka,2018,340
+SA,Bangladesh,2018,180
+SA,Pakistan,2018,520
+SA,Vietnam,2018,540
+SA,Indonesia,2018,120
+SA,Afghanistan,2018,530
+SA,South Africa,2018,340
+SA,Iran,2018,240
+SA,Ireland,2018,20
+SA,Hong Kong,2018,130
+WA,India,2018,3480
+WA,China,2018,1170
+WA,New Zealand,2018,-790
+WA,Philippines,2018,1360
+WA,Nepal,2018,510
+WA,Sri Lanka,2018,210
+WA,Bangladesh,2018,90
+WA,Pakistan,2018,620
+WA,Vietnam,2018,420
+WA,Indonesia,2018,370
+WA,Afghanistan,2018,290
+WA,South Africa,2018,780
+WA,Iran,2018,190
+WA,Ireland,2018,-300
+WA,Hong Kong,2018,-40
+TAS,India,2018,330
+TAS,China,2018,700
+TAS,New Zealand,2018,10
+TAS,Philippines,2018,110
+TAS,Nepal,2018,130
+TAS,Sri Lanka,2018,60
+TAS,Bangladesh,2018,50
+TAS,Pakistan,2018,90
+TAS,Vietnam,2018,100
+TAS,Indonesia,2018,20
+TAS,Afghanistan,2018,80
+TAS,South Africa,2018,70
+TAS,Iran,2018,90
+TAS,Ireland,2018,0
+TAS,Hong Kong,2018,50
+NT,India,2018,310
+NT,China,2018,160
+NT,New Zealand,2018,-40
+NT,Philippines,2018,300
+NT,Nepal,2018,170
+NT,Sri Lanka,2018,90
+NT,Bangladesh,2018,50
+NT,Pakistan,2018,60
+NT,Vietnam,2018,80
+NT,Indonesia,2018,120
+NT,Afghanistan,2018,0
+NT,South Africa,2018,20
+NT,Iran,2018,0
+NT,Ireland,2018,-80
+NT,Hong Kong,2018,0
+ACT,India,2018,800
+ACT,China,2018,1510
+ACT,New Zealand,2018,100
+ACT,Philippines,2018,260
+ACT,Nepal,2018,160
+ACT,Sri Lanka,2018,90
+ACT,Bangladesh,2018,50
+ACT,Pakistan,2018,140
+ACT,Vietnam,2018,110
+ACT,Indonesia,2018,80
+ACT,Afghanistan,2018,40
+ACT,South Africa,2018,80
+ACT,Iran,2018,50
+ACT,Ireland,2018,-10
+ACT,Hong Kong,2018,30
+NSW,India,2017,17020
+NSW,China,2017,19250
+NSW,New Zealand,2017,1420
+NSW,Philippines,2017,4780
+NSW,Nepal,2017,9600
+NSW,Sri Lanka,2017,770
+NSW,Bangladesh,2017,1730
+NSW,Pakistan,2017,2860
+NSW,Vietnam,2017,3180
+NSW,Indonesia,2017,1720
+NSW,Afghanistan,2017,630
+NSW,South Africa,2017,1830
+NSW,Iran,2017,970
+NSW,Ireland,2017,340
+NSW,Hong Kong,2017,910
+VIC,India,2017,20520
+VIC,China,2017,17850
+VIC,New Zealand,2017,1790
+VIC,Philippines,2017,3410
+VIC,Nepal,2017,2440
+VIC,Sri Lanka,2017,3530
+VIC,Bangladesh,2017,580
+VIC,Pakistan,2017,2470
+VIC,Vietnam,2017,2920
+VIC,Indonesia,2017,1110
+VIC,Afghanistan,2017,1230
+VIC,South Africa,2017,970
+VIC,Iran,2017,1040
+VIC,Ireland,2017,170
+VIC,Hong Kong,2017,550
+QLD,India,2017,4470
+QLD,China,2017,6160
+QLD,New Zealand,2017,660
+QLD,Philippines,2017,2160
+QLD,Nepal,2017,1160
+QLD,Sri Lanka,2017,500
+QLD,Bangladesh,2017,180
+QLD,Pakistan,2017,470
+QLD,Vietnam,2017,790
+QLD,Indonesia,2017,350
+QLD,Afghanistan,2017,310
+QLD,South Africa,2017,1500
+QLD,Iran,2017,380
+QLD,Ireland,2017,-50
+QLD,Hong Kong,2017,350
+SA,India,2017,2630
+SA,China,2017,2880
+SA,New Zealand,2017,30
+SA,Philippines,2017,620
+SA,Nepal,2017,700
+SA,Sri Lanka,2017,290
+SA,Bangladesh,2017,180
+SA,Pakistan,2017,470
+SA,Vietnam,2017,520
+SA,Indonesia,2017,-40
+SA,Afghanistan,2017,400
+SA,South Africa,2017,270
+SA,Iran,2017,240
+SA,Ireland,2017,-10
+SA,Hong Kong,2017,80
+WA,India,2017,3740
+WA,China,2017,1520
+WA,New Zealand,2017,-2040
+WA,Philippines,2017,1870
+WA,Nepal,2017,590
+WA,Sri Lanka,2017,260
+WA,Bangladesh,2017,120
+WA,Pakistan,2017,520
+WA,Vietnam,2017,550
+WA,Indonesia,2017,430
+WA,Afghanistan,2017,290
+WA,South Africa,2017,850
+WA,Iran,2017,230
+WA,Ireland,2017,-820
+WA,Hong Kong,2017,10
+TAS,India,2017,230
+TAS,China,2017,650
+TAS,New Zealand,2017,10
+TAS,Philippines,2017,70
+TAS,Nepal,2017,140
+TAS,Sri Lanka,2017,30
+TAS,Bangladesh,2017,30
+TAS,Pakistan,2017,40
+TAS,Vietnam,2017,50
+TAS,Indonesia,2017,20
+TAS,Afghanistan,2017,90
+TAS,South Africa,2017,30
+TAS,Iran,2017,110
+TAS,Ireland,2017,10
+TAS,Hong Kong,2017,10
+NT,India,2017,410
+NT,China,2017,190
+NT,New Zealand,2017,-70
+NT,Philippines,2017,430
+NT,Nepal,2017,200
+NT,Sri Lanka,2017,60
+NT,Bangladesh,2017,60
+NT,Pakistan,2017,50
+NT,Vietnam,2017,-20
+NT,Indonesia,2017,170
+NT,Afghanistan,2017,0
+NT,South Africa,2017,70
+NT,Iran,2017,0
+NT,Ireland,2017,-80
+NT,Hong Kong,2017,0
+ACT,India,2017,710
+ACT,China,2017,1510
+ACT,New Zealand,2017,40
+ACT,Philippines,2017,250
+ACT,Nepal,2017,60
+ACT,Sri Lanka,2017,70
+ACT,Bangladesh,2017,60
+ACT,Pakistan,2017,120
+ACT,Vietnam,2017,130
+ACT,Indonesia,2017,100
+ACT,Afghanistan,2017,20
+ACT,South Africa,2017,70
+ACT,Iran,2017,30
+ACT,Ireland,2017,10
+ACT,Hong Kong,2017,50
+NSW,India,2016,13750
+NSW,China,2016,17420
+NSW,New Zealand,2016,1700
+NSW,Philippines,2016,4160
+NSW,Nepal,2016,4970
+NSW,Sri Lanka,2016,680
+NSW,Bangladesh,2016,1790
+NSW,Pakistan,2016,2710
+NSW,Vietnam,2016,2980
+NSW,Indonesia,2016,1240
+NSW,Afghanistan,2016,630
+NSW,South Africa,2016,1230
+NSW,Iran,2016,780
+NSW,Ireland,2016,-460
+NSW,Hong Kong,2016,650
+VIC,India,2016,15140
+VIC,China,2016,16460
+VIC,New Zealand,2016,2050
+VIC,Philippines,2016,3170
+VIC,Nepal,2016,1140
+VIC,Sri Lanka,2016,2460
+VIC,Bangladesh,2016,550
+VIC,Pakistan,2016,2300
+VIC,Vietnam,2016,2910
+VIC,Indonesia,2016,740
+VIC,Afghanistan,2016,1160
+VIC,South Africa,2016,770
+VIC,Iran,2016,770
+VIC,Ireland,2016,-160
+VIC,Hong Kong,2016,540
+QLD,India,2016,4170
+QLD,China,2016,5160
+QLD,New Zealand,2016,-50
+QLD,Philippines,2016,2030
+QLD,Nepal,2016,750
+QLD,Sri Lanka,2016,420
+QLD,Bangladesh,2016,160
+QLD,Pakistan,2016,520
+QLD,Vietnam,2016,600
+QLD,Indonesia,2016,310
+QLD,Afghanistan,2016,220
+QLD,South Africa,2016,1040
+QLD,Iran,2016,270
+QLD,Ireland,2016,-300
+QLD,Hong Kong,2016,320
+SA,India,2016,2560
+SA,China,2016,2920
+SA,New Zealand,2016,-20
+SA,Philippines,2016,710
+SA,Nepal,2016,350
+SA,Sri Lanka,2016,220
+SA,Bangladesh,2016,100
+SA,Pakistan,2016,350
+SA,Vietnam,2016,540
+SA,Indonesia,2016,30
+SA,Afghanistan,2016,430
+SA,South Africa,2016,170
+SA,Iran,2016,220
+SA,Ireland,2016,-50
+SA,Hong Kong,2016,170
+WA,India,2016,4040
+WA,China,2016,1650
+WA,New Zealand,2016,-2180
+WA,Philippines,2016,2160
+WA,Nepal,2016,430
+WA,Sri Lanka,2016,240
+WA,Bangladesh,2016,120
+WA,Pakistan,2016,590
+WA,Vietnam,2016,630
+WA,Indonesia,2016,360
+WA,Afghanistan,2016,220
+WA,South Africa,2016,760
+WA,Iran,2016,300
+WA,Ireland,2016,-1170
+WA,Hong Kong,2016,110
+TAS,India,2016,170
+TAS,China,2016,410
+TAS,New Zealand,2016,-10
+TAS,Philippines,2016,90
+TAS,Nepal,2016,70
+TAS,Sri Lanka,2016,40
+TAS,Bangladesh,2016,30
+TAS,Pakistan,2016,90
+TAS,Vietnam,2016,50
+TAS,Indonesia,2016,10
+TAS,Afghanistan,2016,80
+TAS,South Africa,2016,20
+TAS,Iran,2016,100
+TAS,Ireland,2016,0
+TAS,Hong Kong,2016,0
+NT,India,2016,360
+NT,China,2016,120
+NT,New Zealand,2016,-90
+NT,Philippines,2016,440
+NT,Nepal,2016,220
+NT,Sri Lanka,2016,60
+NT,Bangladesh,2016,60
+NT,Pakistan,2016,40
+NT,Vietnam,2016,30
+NT,Indonesia,2016,110
+NT,Afghanistan,2016,0
+NT,South Africa,2016,40
+NT,Iran,2016,0
+NT,Ireland,2016,-70
+NT,Hong Kong,2016,-10
+ACT,India,2016,670
+ACT,China,2016,1340
+ACT,New Zealand,2016,60
+ACT,Philippines,2016,240
+ACT,Nepal,2016,40
+ACT,Sri Lanka,2016,80
+ACT,Bangladesh,2016,20
+ACT,Pakistan,2016,120
+ACT,Vietnam,2016,80
+ACT,Indonesia,2016,30
+ACT,Afghanistan,2016,30
+ACT,South Africa,2016,60
+ACT,Iran,2016,30
+ACT,Ireland,2016,-30
+ACT,Hong Kong,2016,40
+NSW,India,2015,12400
+NSW,China,2015,14880
+NSW,New Zealand,2015,800
+NSW,Philippines,2015,3660
+NSW,Nepal,2015,3740
+NSW,Sri Lanka,2015,670
+NSW,Bangladesh,2015,1580
+NSW,Pakistan,2015,2960
+NSW,Vietnam,2015,2770
+NSW,Indonesia,2015,1390
+NSW,Afghanistan,2015,590
+NSW,South Africa,2015,850
+NSW,Iran,2015,710
+NSW,Ireland,2015,-780
+NSW,Hong Kong,2015,600
+VIC,India,2015,13490
+VIC,China,2015,13990
+VIC,New Zealand,2015,1630
+VIC,Philippines,2015,2710
+VIC,Nepal,2015,1110
+VIC,Sri Lanka,2015,2300
+VIC,Bangladesh,2015,530
+VIC,Pakistan,2015,2390
+VIC,Vietnam,2015,2700
+VIC,Indonesia,2015,390
+VIC,Afghanistan,2015,1140
+VIC,South Africa,2015,650
+VIC,Iran,2015,760
+VIC,Ireland,2015,-510
+VIC,Hong Kong,2015,510
+QLD,India,2015,4780
+QLD,China,2015,4190
+QLD,New Zealand,2015,-240
+QLD,Philippines,2015,2150
+QLD,Nepal,2015,520
+QLD,Sri Lanka,2015,350
+QLD,Bangladesh,2015,170
+QLD,Pakistan,2015,500
+QLD,Vietnam,2015,740
+QLD,Indonesia,2015,170
+QLD,Afghanistan,2015,290
+QLD,South Africa,2015,800
+QLD,Iran,2015,270
+QLD,Ireland,2015,-620
+QLD,Hong Kong,2015,360
+SA,India,2015,2490
+SA,China,2015,2760
+SA,New Zealand,2015,-60
+SA,Philippines,2015,800
+SA,Nepal,2015,250
+SA,Sri Lanka,2015,240
+SA,Bangladesh,2015,250
+SA,Pakistan,2015,480
+SA,Vietnam,2015,420
+SA,Indonesia,2015,130
+SA,Afghanistan,2015,480
+SA,South Africa,2015,170
+SA,Iran,2015,300
+SA,Ireland,2015,-30
+SA,Hong Kong,2015,170
+WA,India,2015,3610
+WA,China,2015,1780
+WA,New Zealand,2015,-1160
+WA,Philippines,2015,2250
+WA,Nepal,2015,300
+WA,Sri Lanka,2015,370
+WA,Bangladesh,2015,230
+WA,Pakistan,2015,610
+WA,Vietnam,2015,530
+WA,Indonesia,2015,280
+WA,Afghanistan,2015,290
+WA,South Africa,2015,850
+WA,Iran,2015,390
+WA,Ireland,2015,-1140
+WA,Hong Kong,2015,130
+TAS,India,2015,340
+TAS,China,2015,280
+TAS,New Zealand,2015,-20
+TAS,Philippines,2015,70
+TAS,Nepal,2015,240
+TAS,Sri Lanka,2015,20
+TAS,Bangladesh,2015,20
+TAS,Pakistan,2015,40
+TAS,Vietnam,2015,50
+TAS,Indonesia,2015,30
+TAS,Afghanistan,2015,90
+TAS,South Africa,2015,20
+TAS,Iran,2015,120
+TAS,Ireland,2015,0
+TAS,Hong Kong,2015,20
+NT,India,2015,370
+NT,China,2015,60
+NT,New Zealand,2015,-50
+NT,Philippines,2015,490
+NT,Nepal,2015,170
+NT,Sri Lanka,2015,80
+NT,Bangladesh,2015,70
+NT,Pakistan,2015,40
+NT,Vietnam,2015,50
+NT,Indonesia,2015,50
+NT,Afghanistan,2015,0
+NT,South Africa,2015,40
+NT,Iran,2015,40
+NT,Ireland,2015,-120
+NT,Hong Kong,2015,-10
+ACT,India,2015,920
+ACT,China,2015,1160
+ACT,New Zealand,2015,40
+ACT,Philippines,2015,300
+ACT,Nepal,2015,80
+ACT,Sri Lanka,2015,90
+ACT,Bangladesh,2015,50
+ACT,Pakistan,2015,210
+ACT,Vietnam,2015,60
+ACT,Indonesia,2015,70
+ACT,Afghanistan,2015,30
+ACT,South Africa,2015,90
+ACT,Iran,2015,30
+ACT,Ireland,2015,-50
+ACT,Hong Kong,2015,50

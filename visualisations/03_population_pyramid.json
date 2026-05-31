@@ -1,0 +1,124 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": "container",
+  "height": 460,
+  "background": null,
+  "data": {
+    "url": "data/migration_age.csv"
+  },
+  "transform": [
+    {
+      "fold": [
+        "Female",
+        "Male"
+      ],
+      "as": [
+        "Gender",
+        "Count"
+      ]
+    },
+    {
+      "calculate": "datum.Gender == 'Female' ? -datum.Count : datum.Count",
+      "as": "SignedCount"
+    }
+  ],
+  "mark": {
+    "type": "bar",
+    "cornerRadiusEnd": 2
+  },
+  "encoding": {
+    "y": {
+      "field": "AgeGroup",
+      "type": "ordinal",
+      "sort": [
+        "100+",
+        "95-99",
+        "90-94",
+        "85-89",
+        "80-84",
+        "75-79",
+        "70-74",
+        "65-69",
+        "60-64",
+        "55-59",
+        "50-54",
+        "45-49",
+        "40-44",
+        "35-39",
+        "30-34",
+        "25-29",
+        "20-24",
+        "15-19",
+        "10-14",
+        "5-9",
+        "0-4"
+      ],
+      "axis": {
+        "title": "Age group"
+      }
+    },
+    "x": {
+      "field": "SignedCount",
+      "type": "quantitative",
+      "axis": {
+        "title": "Migrants",
+        "format": ",",
+        "labelExpr": "abs(datum.value)"
+      }
+    },
+    "color": {
+      "field": "Gender",
+      "type": "nominal",
+      "scale": {
+        "domain": [
+          "Female",
+          "Male"
+        ],
+        "range": [
+          "#C94B8A",
+          "#2A7AB5"
+        ]
+      },
+      "legend": {
+        "title": null,
+        "orient": "bottom"
+      }
+    },
+    "tooltip": [
+      {
+        "field": "AgeGroup",
+        "type": "ordinal",
+        "title": "Age group"
+      },
+      {
+        "field": "Gender",
+        "type": "nominal"
+      },
+      {
+        "field": "Count",
+        "type": "quantitative",
+        "format": ","
+      }
+    ]
+  },
+  "config": {
+    "view": {
+      "stroke": null
+    },
+    "axis": {
+      "gridColor": "#3b516d",
+      "domainColor": "#c8bfad",
+      "tickColor": "#c8bfad",
+      "labelColor": "#f5f0e8",
+      "titleColor": "#f5f0e8",
+      "labelFont": "Barlow",
+      "titleFont": "Barlow"
+    },
+    "legend": {
+      "labelColor": "#f5f0e8",
+      "titleColor": "#f5f0e8",
+      "labelFont": "Barlow",
+      "titleFont": "Barlow"
+    }
+  }
+}

@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Where Australia Is Growing</title>
+
+  <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&family=Barlow:wght@300;400;500;600&family=Barlow+Condensed:wght@500;600;700&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<!-- MASTHEAD BAR -->
+<div class="masthead">
+  <span class="course-tag">FIT2179 · Data Visualisation</span>
+  <span class="edition-tag">Special Report</span>
+  <span class="date-tag">2015 – 2025</span>
+</div>
+
+<!-- HERO -->
+<header class="hero">
+  <div class="hero-inner">
+    <div class="hero-eyebrow">
+      <span class="label">Population & Migration</span>
+      <span class="sep"></span>
+      <span class="label-soft">Australia · 10-Year Analysis</span>
+    </div>
+
+    <h1>Where Australia<br><em>Is Growing</em></h1>
+
+    <p class="hero-deck">
+      Migration and population change across Australia's states and territories, 2015–2025.
+      A decade of demographic shifts — who is arriving, where they settle, and how the continent is being remade.
+    </p>
+
+    <div class="hero-stats">
+      <div class="hero-stat">
+        <strong>10</strong>
+        <span>Years Covered</span>
+      </div>
+      <div class="hero-stat">
+        <strong>8</strong>
+        <span>States & Territories</span>
+      </div>
+      <div class="hero-stat">
+        <strong>2</strong>
+        <span>Data Sources</span>
+      </div>
+      <div class="hero-stat">
+        <strong>12</strong>
+        <span>Visualisations</span>
+      </div>
+    </div>
+  </div>
+</header>
+
+
+<!-- ══════════════════════════════════════════════
+     SECTION 01 · The National Picture
+     01 Choropleth (hero)
+     07 Connected scatterplot · 02 Bubble map
+══════════════════════════════════════════════ -->
+<section class="story-section">
+  <div class="story-section-inner">
+
+    <div class="section-meta">
+      <span class="section-number">01</span>
+      <div class="section-text">
+        <p class="section-kicker">The National Picture</p>
+        <h2 class="section-headline">Australia's population has grown dramatically — but not evenly</h2>
+        <p class="section-body">
+          Total population crossed 27 million, but the distribution of that growth tells a different story.
+          Some cities absorbed almost all of it; large swathes of the country barely moved.
+        </p>
+      </div>
+    </div>
+
+    <!-- 01: Choropleth — full-width hero -->
+    <div class="chart-grid cols-1">
+      <div class="chart-card">
+        <div class="chart-card-header">
+          <h3>Population Growth Across Australia</h3>
+          <p class="chart-desc">Choropleth · Cumulative growth by state, 2015–2025</p>
+        </div>
+        <div class="chart-body">
+          <div id="chart_01"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 02: Bubble map — full-width -->
+    <div class="chart-grid cols-1">
+      <div class="chart-card">
+        <div class="chart-card-header">
+          <h3>Where People Are Concentrated</h3>
+          <p class="chart-desc">Bubble map · Absolute population by major city</p>
+        </div>
+        <div class="chart-body">
+          <div id="chart_02"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 07: Connected scatterplot — full-width -->
+    <div class="chart-grid cols-1">
+      <div class="chart-card">
+        <div class="chart-card-header">
+          <h3>Growth Rate vs. Net Overseas Migration</h3>
+          <p class="chart-desc">Connected scatterplot · Each point is one year — the path shows how migration drove growth</p>
+        </div>
+        <div class="chart-body">
+          <div id="chart_07"></div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- ══════════════════════════════════════════════
+     SECTION 02 · The Migration Engine
+     06 Area graph (hero)
+     03 Population pyramid (full-width)
+══════════════════════════════════════════════ -->
+<section class="story-section dark">
+  <div class="story-section-inner">
+
+    <div class="section-meta">
+      <span class="section-number">02</span>
+      <div class="section-text">
+        <p class="section-kicker" style="color:var(--gold-light)">The Migration Engine</p>
+        <h2 class="section-headline">Overseas migration is the primary driver — and it almost stopped</h2>
+        <p class="section-body">
+          Net overseas migration has outpaced natural increase for most of the decade.
+          The pandemic severed it almost entirely in 2020 — and the rebound that followed was historic.
+        </p>
+      </div>
+    </div>
+
+    <!-- 06 + 03: Area graph · Population pyramid -->
+    <div class="chart-grid cols-2">
+      <div class="chart-card">
+        <div class="chart-card-header">
+          <h3>Components of Population Change</h3>
+          <p class="chart-desc">Area graph · Natural increase vs. net overseas migration, 2015–2025</p>
+        </div>
+        <div class="chart-body">
+          <div id="chart_06"></div>
+        </div>
+      </div>
+
+      <div class="chart-card">
+        <div class="chart-card-header">
+          <h3>Who Is Arriving</h3>
+          <p class="chart-desc">Population pyramid · Age and sex of overseas migrants</p>
+        </div>
+        <div class="chart-body">
+          <div id="chart_03"></div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- ══════════════════════════════════════════════
+     SECTION 03 · Where They Come From
+     12 Diverging bar · 11 Stacked normalised bar
+     04 Heatmap (country × state) · 10 Lollipop (visa changes)
+══════════════════════════════════════════════ -->
+<section class="story-section">
+  <div class="story-section-inner">
+
+    <div class="section-meta">
+      <span class="section-number">03</span>
+      <div class="section-text">
+        <p class="section-kicker">Where They Come From</p>
+        <h2 class="section-headline">A handful of countries account for the majority of arrivals</h2>
+        <p class="section-body">
+          India has overtaken China and the UK as Australia's largest source of migrants.
+          The shift is not just demographic — it reflects a decade of deliberate visa policy change.
+        </p>
+      </div>
+    </div>
+
+    <!-- 12 + 11: Diverging bar · Stacked normalised bar -->
+    <div class="chart-grid cols-2">
+      <div class="chart-card">
+        <div class="chart-card-header">
+          <h3>Countries Gaining and Losing Share</h3>
+          <p class="chart-desc">Diverging bar · Change in share of total arrivals, 2015–2025</p>
+        </div>
+        <div class="chart-body">
+          <div id="chart_12"></div>
+        </div>
+      </div>
+
+      <div class="chart-card">
+        <div class="chart-card-header">
+          <h3>Source Country Mix Over Time</h3>
+          <p class="chart-desc">Stacked normalised bar · Top source countries as % of annual arrivals</p>
+        </div>
+        <div class="chart-body">
+          <div id="chart_11"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 04: Heatmap country × state — full-width -->
+    <div class="chart-grid cols-1" style="margin-top: var(--col-gap)">
+      <div class="chart-card">
+        <div class="chart-card-header">
+          <h3>Where Each Country's Migrants Settle</h3>
+          <p class="chart-desc">Heatmap · Migrant arrivals by country of origin and destination state — use the slider to explore each year</p>
+        </div>
+        <div class="chart-body">
+          <div id="chart_04"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 10: Lollipop visa changes — full-width -->
+    <div class="chart-grid cols-1" style="margin-top: var(--col-gap)">
+      <div class="chart-card">
+        <div class="chart-card-header">
+          <h3>How Visa Policy Reshaped the Intake</h3>
+          <p class="chart-desc">Lollipop · Change in visa grants by category, 2015–2025</p>
+        </div>
+        <div class="chart-body">
+          <div id="chart_10"></div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- ══════════════════════════════════════════════
+     SECTION 04 · The State Race
+     09 Bump chart (hero)
+     05 Small multiples · 08 Slope chart
+══════════════════════════════════════════════ -->
+<section class="story-section dark">
+  <div class="story-section-inner">
+
+    <div class="section-meta">
+      <span class="section-number">04</span>
+      <div class="section-text">
+        <p class="section-kicker" style="color:var(--gold-light)">The State Race</p>
+        <h2 class="section-headline">Not all states are keeping up</h2>
+        <p class="section-body">
+          Victoria and Queensland have punched above their weight. South Australia and Tasmania have slipped.
+          The rank changes over the decade tell the most dramatic version of the story.
+        </p>
+      </div>
+    </div>
+
+    <!-- 09: Bump chart — full-width hero -->
+    <div class="chart-grid cols-1">
+      <div class="chart-card">
+        <div class="chart-card-header">
+          <h3>The State Growth Rankings, Year by Year</h3>
+          <p class="chart-desc">Bump chart · Rank 1 = fastest growing — line crossings are the story</p>
+        </div>
+        <div class="chart-body">
+          <div id="chart_09"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 05 + 08: Small multiples · Slope chart -->
+    <div class="chart-grid cols-2">
+      <div class="chart-card">
+        <div class="chart-card-header">
+          <h3>Each State's Population Trajectory</h3>
+          <p class="chart-desc">Small multiples · One panel per state, same axis scale throughout</p>
+        </div>
+        <div class="chart-body">
+          <div id="chart_05"></div>
+        </div>
+      </div>
+
+      <div class="chart-card">
+        <div class="chart-card-header">
+          <h3>Growth Rate Shift, 2016 → 2025</h3>
+          <p class="chart-desc">Slope chart · How each state's annual growth rate changed over the decade</p>
+        </div>
+        <div class="chart-body">
+          <div id="chart_08"></div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-inner">
+    <div class="footer-left">
+      <div class="footer-logo">Where Australia Is Growing</div>
+      <div class="footer-divider"></div>
+      <div class="footer-meta">
+        <strong>Author:</strong> Sahil Shaik<br>
+        <strong>Data sources:</strong> Australian Bureau of Statistics · Department of Home Affairs<br>
+        <strong>AI acknowledgement:</strong> This project used generative AI assistance for layout and code scaffolding.
+      </div>
+    </div>
+    <div class="footer-right">
+      <div class="footer-unit">
+        FIT2179<br>
+        Data Visualisation<br>
+        Monash University
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="js/visualisations.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,138 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": "container",
+  "height": 430,
+  "data": {
+    "url": "data/connected_scatterplot.csv"
+  },
+  "layer": [
+    {
+      "mark": {
+        "type": "line",
+        "point": false,
+        "strokeWidth": 2.5,
+        "color": "#7A1E3A"
+      },
+      "encoding": {
+        "x": {
+          "field": "NetMigration",
+          "type": "quantitative",
+          "title": "Net Overseas Migration",
+          "axis": {
+            "format": "d"
+          }
+        },
+        "y": {
+          "field": "PopulationGrowthRate",
+          "type": "quantitative",
+          "title": "Population Growth Rate (%)",
+          "axis": {
+            "format": ".1f"
+          }
+        },
+        "order": {
+          "field": "Year",
+          "type": "ordinal"
+        }
+      }
+    },
+    {
+      "mark": {
+        "type": "circle",
+        "size": 120,
+        "filled": true,
+        "stroke": "#F2EEE8",
+        "strokeWidth": 1.5
+      },
+      "encoding": {
+        "x": {
+          "field": "NetMigration",
+          "type": "quantitative"
+        },
+        "y": {
+          "field": "PopulationGrowthRate",
+          "type": "quantitative"
+        },
+        "color": {
+          "field": "Year",
+          "type": "ordinal",
+          "scale": {
+            "scheme": "yelloworangered"
+          },
+          "legend": {
+            "title": "Year",
+            "orient": "bottom"
+          }
+        },
+        "tooltip": [
+          {
+            "field": "Year",
+            "type": "ordinal"
+          },
+          {
+            "field": "NetMigration",
+            "type": "quantitative",
+            "format": "d"
+          },
+          {
+            "field": "PopulationGrowthRate",
+            "type": "quantitative",
+            "format": ".2f",
+            "title": "Population Growth Rate (%)"
+          }
+        ]
+      }
+    },
+    {
+      "mark": {
+        "type": "text",
+        "dy": -12,
+        "fontSize": 10,
+        "font": "Source Serif 4",
+        "color": "#1B1B2A"
+      },
+      "encoding": {
+        "x": {
+          "field": "NetMigration",
+          "type": "quantitative"
+        },
+        "y": {
+          "field": "PopulationGrowthRate",
+          "type": "quantitative"
+        },
+        "text": {
+          "field": "Year",
+          "type": "ordinal"
+        }
+      }
+    }
+  ],
+  "config": {
+    "axis": {
+      "labelFont": "Source Serif 4",
+      "titleFont": "Source Serif 4",
+      "gridColor": "#D6CFC4",
+      "domainColor": "#D6CFC4",
+      "tickColor": "#D6CFC4"
+    },
+    "legend": {
+      "labelFont": "Source Serif 4",
+      "titleFont": "Source Serif 4"
+    },
+    "view": {
+      "stroke": null
+    }
+  },
+  "title": {
+    "text": "Growth Rate vs. Net Overseas Migration",
+    "subtitle": "Each point is one year \u2014 the path shows how migration drove growth",
+    "fontSize": 13,
+    "subtitleFontSize": 11,
+    "color": "#2a3545",
+    "subtitleColor": "#666666",
+    "anchor": "start",
+    "offset": 10,
+    "font": "Cormorant Garamond",
+    "subtitleFont": "Barlow"
+  }
+}

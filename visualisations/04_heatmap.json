@@ -1,0 +1,109 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": "container",
+  "height": 520,
+  "data": {
+    "url": "data/country_to_state_migration.csv"
+  },
+  "params": [
+    {
+      "name": "selectedYear",
+      "value": 2020,
+      "bind": {
+        "input": "range",
+        "min": 2015,
+        "max": 2025,
+        "step": 1,
+        "name": "Year: "
+      }
+    }
+  ],
+  "transform": [
+    {
+      "filter": "datum.Year == selectedYear"
+    }
+  ],
+  "mark": {
+    "type": "rect"
+  },
+  "encoding": {
+    "x": {
+      "field": "State",
+      "type": "nominal",
+      "sort": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "WA",
+        "SA",
+        "TAS",
+        "ACT",
+        "NT"
+      ],
+      "axis": {
+        "title": null,
+        "labelFont": "Source Serif 4",
+        "labelFontSize": 11,
+        "labelAngle": 0
+      }
+    },
+    "y": {
+      "field": "Country",
+      "type": "nominal",
+      "sort": {
+        "op": "sum",
+        "field": "Migrants",
+        "order": "descending"
+      },
+      "axis": {
+        "title": null,
+        "labelFont": "Source Serif 4",
+        "labelFontSize": 11
+      }
+    },
+    "color": {
+      "field": "Migrants",
+      "type": "quantitative",
+      "scale": {
+        "type": "sqrt",
+        "scheme": "blues"
+      },
+      "legend": {
+        "title": "Migrants",
+        "titleFont": "Source Serif 4",
+        "labelFont": "Source Serif 4",
+        "titleFontSize": 11,
+        "labelFontSize": 10,
+        "format": "d"
+      }
+    },
+    "tooltip": [
+      {
+        "field": "Country",
+        "type": "nominal"
+      },
+      {
+        "field": "State",
+        "type": "nominal"
+      },
+      {
+        "field": "Migrants",
+        "type": "quantitative",
+        "format": "d"
+      },
+      {
+        "field": "Year",
+        "type": "quantitative"
+      }
+    ]
+  },
+  "config": {
+    "view": {
+      "stroke": null
+    },
+    "axis": {
+      "grid": false
+    },
+    "font": "Source Serif 4"
+  }
+}

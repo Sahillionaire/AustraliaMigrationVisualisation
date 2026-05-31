@@ -1,0 +1,191 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": "container",
+  "height": 420,
+  "background": null,
+  "data": {
+    "url": "data/state_growth_heatmap.csv"
+  },
+  "transform": [
+    {
+      "filter": "datum.Year == 2016 || datum.Year == 2025"
+    }
+  ],
+  "encoding": {
+    "x": {
+      "field": "Year",
+      "type": "ordinal",
+      "scale": {
+        "padding": 0.4
+      },
+      "axis": {
+        "title": null,
+        "labelAngle": 0,
+        "labelColor": "#f5f0e8",
+        "labelFont": "Barlow",
+        "labelFontSize": 13,
+        "labelFontWeight": "bold",
+        "tickColor": "#D6CFC4",
+        "domain": false,
+        "grid": false
+      }
+    },
+    "y": {
+      "field": "GrowthRate",
+      "type": "quantitative",
+      "axis": {
+        "title": "Growth Rate (%)",
+        "titleColor": "#f5f0e8",
+        "labelColor": "#f5f0e8",
+        "labelFont": "Barlow",
+        "titleFont": "Barlow",
+        "labelFontSize": 10,
+        "tickColor": "#D6CFC4",
+        "domain": false,
+        "grid": true,
+        "gridColor": "#D6CFC4",
+        "gridOpacity": 0.2,
+        "format": ".1f"
+      }
+    },
+    "color": {
+      "field": "State",
+      "type": "nominal",
+      "scale": {
+        "domain": [
+          "NSW",
+          "VIC",
+          "QLD",
+          "WA",
+          "SA",
+          "TAS",
+          "ACT",
+          "NT"
+        ],
+        "range": [
+          "#1B6CA8",
+          "#E05C2A",
+          "#2A9D72",
+          "#D4A017",
+          "#9B3A8C",
+          "#3AABCC",
+          "#C94040",
+          "#6B8F71"
+        ]
+      },
+      "legend": null
+    }
+  },
+  "layer": [
+    {
+      "mark": {
+        "type": "line",
+        "strokeWidth": 2
+      }
+    },
+    {
+      "mark": {
+        "type": "point",
+        "filled": true,
+        "size": 60
+      },
+      "encoding": {
+        "tooltip": [
+          {
+            "field": "State",
+            "type": "nominal"
+          },
+          {
+            "field": "Year",
+            "type": "ordinal"
+          },
+          {
+            "field": "GrowthRate",
+            "type": "quantitative",
+            "format": ".2f",
+            "title": "Growth Rate (%)"
+          },
+          {
+            "field": "Population",
+            "type": "quantitative",
+            "format": ","
+          }
+        ]
+      }
+    },
+    {
+      "transform": [
+        {
+          "filter": "datum.Year == 2016"
+        }
+      ],
+      "mark": {
+        "type": "text",
+        "align": "right",
+        "dx": -8,
+        "fontSize": 11,
+        "font": "Barlow",
+        "fontWeight": "bold"
+      },
+      "encoding": {
+        "text": {
+          "field": "State",
+          "type": "nominal"
+        },
+        "color": {
+          "field": "State",
+          "type": "nominal",
+          "legend": null
+        }
+      }
+    },
+    {
+      "transform": [
+        {
+          "filter": "datum.Year == 2025"
+        }
+      ],
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "dx": 8,
+        "fontSize": 11,
+        "font": "Barlow",
+        "fontWeight": "bold"
+      },
+      "encoding": {
+        "text": {
+          "field": "State",
+          "type": "nominal"
+        },
+        "color": {
+          "field": "State",
+          "type": "nominal",
+          "legend": null
+        }
+      }
+    }
+  ],
+  "config": {
+    "view": {
+      "stroke": null
+    },
+    "axis": {
+      "grid": false,
+      "domain": false
+    },
+    "font": "Barlow"
+  },
+  "title": {
+    "text": "Growth Rate Shift, 2016 \u2192 2025",
+    "subtitle": "How each state's annual growth rate changed over the decade",
+    "fontSize": 13,
+    "subtitleFontSize": 11,
+    "color": "#f5f0e8",
+    "subtitleColor": "#c8bfad",
+    "anchor": "start",
+    "offset": 10,
+    "font": "Cormorant Garamond",
+    "subtitleFont": "Barlow"
+  }
+}

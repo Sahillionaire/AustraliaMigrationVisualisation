@@ -1,0 +1,130 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": "container",
+  "height": 420,
+  "background": null,
+  "data": {
+    "url": "data/source_country_migration.csv"
+  },
+  "params": [
+    {
+      "name": "selectedYear",
+      "value": 2025,
+      "bind": {
+        "input": "range",
+        "min": 2016,
+        "max": 2025,
+        "step": 1,
+        "name": "Compare 2015 to: "
+      }
+    }
+  ],
+  "transform": [
+    {
+      "filter": "datum.Migrants > 0 && (datum.Year == 2015 || datum.Year == selectedYear)"
+    },
+    {
+      "joinaggregate": [
+        {
+          "op": "sum",
+          "field": "Migrants",
+          "as": "YearTotal"
+        }
+      ],
+      "groupby": [
+        "Year"
+      ]
+    },
+    {
+      "calculate": "datum.Migrants / datum.YearTotal",
+      "as": "Share"
+    },
+    {
+      "pivot": "Year",
+      "value": "Share",
+      "groupby": [
+        "Country"
+      ]
+    },
+    {
+      "calculate": "datum[toString(selectedYear)] - datum['2015']",
+      "as": "ShareChange"
+    },
+    {
+      "filter": "isValid(datum.ShareChange)"
+    }
+  ],
+  "mark": {
+    "type": "bar",
+    "cornerRadiusEnd": 3
+  },
+  "encoding": {
+    "y": {
+      "field": "Country",
+      "type": "nominal",
+      "sort": "-x",
+      "axis": {
+        "title": null
+      }
+    },
+    "x": {
+      "field": "ShareChange",
+      "type": "quantitative",
+      "axis": {
+        "title": "Change in share of migrants",
+        "format": "+.0%"
+      }
+    },
+    "color": {
+      "condition": {
+        "test": "datum.ShareChange >= 0",
+        "value": "#2A9D72"
+      },
+      "value": "#C94040"
+    },
+    "tooltip": [
+      {
+        "field": "Country",
+        "type": "nominal"
+      },
+      {
+        "field": "2015",
+        "type": "quantitative",
+        "title": "2015 share",
+        "format": ".1%"
+      },
+      {
+        "field": "ShareChange",
+        "type": "quantitative",
+        "title": "Share change",
+        "format": "+.1%"
+      }
+    ]
+  },
+  "config": {
+    "view": {
+      "stroke": null
+    },
+    "axis": {
+      "gridColor": "#ddd7cb",
+      "domainColor": "#c8bfad",
+      "tickColor": "#c8bfad",
+      "labelColor": "#2a3545",
+      "titleColor": "#2a3545",
+      "labelFont": "Barlow",
+      "titleFont": "Barlow"
+    }
+  },
+  "title": {
+    "text": "Countries Gaining and Losing Share",
+    "subtitle": "Change in share of total arrivals, 2015\u20132025",
+    "fontSize": 13,
+    "subtitleFontSize": 11,
+    "color": "#2a3545",
+    "subtitleColor": "#666666",
+    "anchor": "start",
+    "offset": 10,
+    "font": "Cormorant Garamond",
+    "subtitleFont": "Barlow"
+  }
+}

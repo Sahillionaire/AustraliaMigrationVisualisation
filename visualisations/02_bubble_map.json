@@ -1,0 +1,144 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": "container",
+  "height": 520,
+  "projection": {
+    "type": "mercator",
+    "center": [
+      134,
+      -27
+    ],
+    "scale": 650
+  },
+  "layer": [
+    {
+      "data": {
+        "url": "data/AUS_MAP.json",
+        "format": {
+          "type": "topojson",
+          "feature": "STE_2021_AUST_GDA2020"
+        }
+      },
+      "transform": [
+        {
+          "filter": "datum.properties.STE_NAME21 !== 'Other Territories' && datum.properties.STE_NAME21 !== 'Outside Australia'"
+        }
+      ],
+      "mark": {
+        "type": "geoshape",
+        "fill": "#F2EEE8",
+        "stroke": "#B8AFA4",
+        "strokeWidth": 1
+      }
+    },
+    {
+      "data": {
+        "url": "data/major_city_population.csv"
+      },
+      "mark": {
+        "type": "circle",
+        "opacity": 0.8,
+        "stroke": "#FFFFFF",
+        "strokeWidth": 1.5
+      },
+      "encoding": {
+        "longitude": {
+          "field": "Longitude",
+          "type": "quantitative"
+        },
+        "latitude": {
+          "field": "Latitude",
+          "type": "quantitative"
+        },
+        "size": {
+          "field": "Population",
+          "type": "quantitative",
+          "scale": {
+            "range": [
+              80,
+              3200
+            ]
+          },
+          "legend": {
+            "title": "Population",
+            "orient": "right"
+          }
+        },
+        "color": {
+          "field": "City",
+          "type": "nominal",
+          "scale": {
+            "domain": [
+              "Sydney",
+              "Melbourne",
+              "Brisbane",
+              "Perth",
+              "Adelaide",
+              "Hobart",
+              "Canberra",
+              "Darwin"
+            ],
+            "range": [
+              "#1B6CA8",
+              "#E05C2A",
+              "#2A9D72",
+              "#D4A017",
+              "#9B3A8C",
+              "#3AABCC",
+              "#C94040",
+              "#6B8F71"
+            ]
+          },
+          "legend": null
+        },
+        "tooltip": [
+          {
+            "field": "City",
+            "type": "nominal"
+          },
+          {
+            "field": "Population",
+            "type": "quantitative",
+            "format": ","
+          }
+        ]
+      }
+    },
+    {
+      "data": {
+        "url": "data/major_city_population.csv"
+      },
+      "mark": {
+        "type": "text",
+        "dy": -13,
+        "fontSize": 11,
+        "font": "Source Serif 4",
+        "fontWeight": 600,
+        "color": "#1B1B2A"
+      },
+      "encoding": {
+        "longitude": {
+          "field": "Longitude",
+          "type": "quantitative"
+        },
+        "latitude": {
+          "field": "Latitude",
+          "type": "quantitative"
+        },
+        "text": {
+          "field": "City",
+          "type": "nominal"
+        }
+      }
+    }
+  ],
+  "config": {
+    "view": {
+      "stroke": null
+    },
+    "legend": {
+      "labelFont": "Source Serif 4",
+      "titleFont": "Source Serif 4"
+    }
+  }
+}

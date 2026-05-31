@@ -1,0 +1,167 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": "container",
+  "height": 420,
+  "background": null,
+  "data": {
+    "url": "data/lollipop_chart.csv"
+  },
+  "layer": [
+    {
+      "mark": {
+        "type": "rule",
+        "color": "#B8AFA4",
+        "strokeDash": [
+          4,
+          4
+        ],
+        "opacity": 0.8
+      },
+      "encoding": {
+        "x": {
+          "datum": 0
+        }
+      }
+    },
+    {
+      "mark": {
+        "type": "bar",
+        "height": 5,
+        "opacity": 0.95
+      },
+      "encoding": {
+        "y": {
+          "field": "Visa Type",
+          "type": "nominal",
+          "sort": {
+            "field": "Change",
+            "order": "descending"
+          },
+          "axis": {
+            "title": null
+          }
+        },
+        "x": {
+          "field": "Change",
+          "type": "quantitative",
+          "axis": {
+            "title": "Change in visa grants, 2015\u20132025",
+            "format": "d"
+          }
+        },
+        "color": {
+          "condition": {
+            "test": "datum.Change >= 0",
+            "value": "#2A9D72"
+          },
+          "value": "#C94040"
+        },
+        "tooltip": [
+          {
+            "field": "Visa Type",
+            "type": "nominal"
+          },
+          {
+            "field": "2015",
+            "type": "quantitative",
+            "format": "d"
+          },
+          {
+            "field": "2025",
+            "type": "quantitative",
+            "format": "d"
+          },
+          {
+            "field": "Change",
+            "type": "quantitative",
+            "format": "+,"
+          }
+        ]
+      }
+    },
+    {
+      "mark": {
+        "type": "point",
+        "filled": true,
+        "size": 180,
+        "opacity": 1,
+        "stroke": "#ffffff",
+        "strokeWidth": 1.5
+      },
+      "encoding": {
+        "y": {
+          "field": "Visa Type",
+          "type": "nominal",
+          "sort": {
+            "field": "Change",
+            "order": "descending"
+          },
+          "axis": {
+            "title": null
+          }
+        },
+        "x": {
+          "field": "Change",
+          "type": "quantitative"
+        },
+        "color": {
+          "condition": {
+            "test": "datum.Change >= 0",
+            "value": "#2A9D72"
+          },
+          "value": "#C94040"
+        },
+        "tooltip": [
+          {
+            "field": "Visa Type",
+            "type": "nominal"
+          },
+          {
+            "field": "2015",
+            "type": "quantitative",
+            "format": "d"
+          },
+          {
+            "field": "2025",
+            "type": "quantitative",
+            "format": "d"
+          },
+          {
+            "field": "Change",
+            "type": "quantitative",
+            "format": "+,"
+          }
+        ]
+      }
+    }
+  ],
+  "config": {
+    "view": {
+      "stroke": null
+    },
+    "axis": {
+      "gridColor": "#D6CFC4",
+      "gridOpacity": 0.6,
+      "domainColor": "#B8AFA4",
+      "tickColor": "#B8AFA4",
+      "labelColor": "#2a3545",
+      "titleColor": "#2a3545",
+      "labelFont": "Barlow",
+      "titleFont": "Barlow",
+      "labelFontSize": 11,
+      "titleFontSize": 11
+    }
+  },
+  "title": {
+    "text": "How Visa Policy Reshaped the Intake",
+    "subtitle": "Change in visa grants by category, 2015\u20132025",
+    "fontSize": 13,
+    "subtitleFontSize": 11,
+    "color": "#2a3545",
+    "subtitleColor": "#666666",
+    "anchor": "start",
+    "offset": 10,
+    "font": "Cormorant Garamond",
+    "subtitleFont": "Barlow"
+  }
+}
